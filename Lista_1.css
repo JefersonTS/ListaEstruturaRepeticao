@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+h1{
+    color: black;
+    font-size: 20px;
+    font-family: "Courier New";
+}
+
+h2{
+    color: black;
+    font-size: 15px;
+    font-family: "Courier New";
+}
+
+div{
+    color: #b1afae;
+    border-top: solid 3px;
+    border-bottom: dotted 3px;
+}
+button{
+    font-size: 20px;
+    font-family: Elephant;
+}
+table{
+    color: black;
+    border:3px solid #e00d29; /*Cor e tamanho da Borda da tabela*/
+    border-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table caption{
+    text-align: center;
+    color: #ff0011;
+    font-size: 15pt;
+    font-family: 'Hanalei Fill', cursive;
+}
+table td{
+    border: 4px dashed #000000; /*Cor e tamanho da linha da tabela*/
+    padding: 10px; /*Espaço interno*/
+    vertical-align: middle;
+    text-align: center;
+}
+table th{
+    border: 1px solid  #e00d29;
+    padding: 10px;
+}
